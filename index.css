@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap");
+:root {
+  --text-color: black;
+}
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container_section {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.container_section#one {
+  background-image: url(./images/Model\ 3.avif);
+}
+.container_section#two {
+  background-image: url(./images/Model\ Y.avif);
+}
+.container_section#three {
+  background-image: url(./images/Model\ S.avif);
+}
+.container_section#four {
+  background-image: url(./images/Model\ X.avif);
+}
+.container_section#five {
+  background-image: url(./images/Solar\ Panels.avif);
+}
+.container_section#six {
+  background-image: url(./images/Solar\ Roof.avif);
+}
+.container_section#seven {
+  background-image: url(./images/Accessories.avif);
+}
+
+.container_content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8rem 0 3rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+.container_content-header h1 {
+  color: var(--text-color);
+  font-size: 2rem;
+}
+.btn {
+  background-color: white;
+  border: unset;
+  min-width: 15rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.8rem 2rem;
+  border-radius: 2rem;
+}
+.btn-dark {
+  color: white;
+  background-color: rgba(23, 26, 32, 0.8);
+  opacity: 0.8;
+}
+.ml {
+  margin-left: 1rem;
+}
+.container_content-footer {
+  position: relative;
+  margin-bottom: 4rem;
+}
+.container_down-arrow {
+  position: absolute;
+  left: 47%;
+  margin-top: 5rem;
+  animation: jump 1s ease infinite;
+}
+@keyframes jump {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 5px;
+  }
+  100% {
+    top: 0;
+  }
+}

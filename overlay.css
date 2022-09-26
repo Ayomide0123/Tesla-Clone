@@ -1,0 +1,66 @@
+.overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(4px);
+  /* display: none; */
+  justify-content: end;
+  transform: scaleX(0);
+  transition: 0.3s ease;
+  transform-origin: right;
+}
+
+.overlay_menu {
+  background-color: white;
+  padding: 0 3rem;
+  text-align: right;
+  width: 15%;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  /* transform: scaleY(0); */
+  /* transition: 1s; */
+  /* transform-origin: right; */
+  display: block;
+  position: fixed;
+  /* animation: modalOpen 1s; */
+
+  /* 
+  display: block;
+  transform: scaleY(1);
+  display: block;
+  position: absolute;
+  top: 5rem;
+  color: gray;
+  background-color: hsl(0, 0%, 100%);
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+  z-index: 2;
+  transition: 1s;
+  transform-origin: top; */
+}
+
+/* @keyframes modalOpen {
+  from {
+    right: 0;
+  }
+  to {
+    right: 10rem;
+  }
+} */
+.overlay_close {
+  padding: 2rem 0;
+  text-align: right;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.overlay_list {
+  list-style-type: none;
+  padding: 0;
+}
+.overlay_list li {
+  margin-bottom: 1rem;
+}

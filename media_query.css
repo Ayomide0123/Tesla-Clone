@@ -1,0 +1,20 @@
+@media screen and (max-width: 1100px) {
+  .header_nav {
+    display: none;
+  }
+  .header_nav--mobile {
+    display: block;
+  }
+  .container_down-arrow {
+    display: none;
+  }
+  .ml {
+    margin-left: 0;
+  }
+  .btn {
+    width: 100%;
+  }
+  .btn-dark {
+    margin-bottom: 1.5rem;
+  }
+}

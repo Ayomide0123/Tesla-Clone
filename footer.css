@@ -1,0 +1,14 @@
+.footer_nav {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  padding: 1rem;
+  padding-inline: 10rem;
+  text-align: center;
+  justify-content: center;
+}
+.footer_nav a {
+  text-decoration: none;
+  padding: 0.3rem 0.9rem;
+  font-size: 0.9rem;
+}
